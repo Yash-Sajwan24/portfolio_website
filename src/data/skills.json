@@ -1,0 +1,72 @@
+{
+    "coreTechnicalSkills": [
+       
+        {
+            "name": "React.js",
+            "percent": 90
+        },
+        {
+            "name": "Next.js", 
+            "percent": 80
+        },
+        {
+            "name": "Node.js",
+            "percent": 80
+        },
+        {
+            "name": "Express.js",
+            "percent": 85
+        },
+        {
+            "name": "Mongo DB",
+            "percent": 70
+        },
+        {
+            "name": "My Sql (Queries)", 
+            "percent": 80
+        },
+        {
+            "name": "HTML/CSS",
+            "percent": 90
+        },
+        {
+            "name": "JavaScript",
+            "percent": 85
+        }
+    ],
+
+    "additionalSkills":[
+        {
+            "name": "Git/Github",
+            "percent": 80
+        },
+        {
+            "name": "Tailwind CSS",
+            "percent": 80
+        },
+        {
+            "name": "Firebase",
+            "percent": 70
+        },
+        {
+            "name": "Java",
+            "percent": 70
+        },
+        {
+            "name": "C/C++",
+            "percent": 90
+        },
+        {
+            "name": "Python",
+            "percent": 80
+        },
+        {
+            "name": "Data Structures & Algorithms",
+            "percent": 80
+        },
+        {
+            "name": "Redux Toolkit",
+            "percent": 75
+        }
+    ]
+}
