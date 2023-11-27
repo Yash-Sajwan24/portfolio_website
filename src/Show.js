@@ -14,9 +14,9 @@ import ArchivePage from "./Archive";
 function Show() {
   const mainRef = useRef(false);
 
-  const toggleBlur = () => {
-    mainRef.current.classList.toggle("blurBody");
-  };
+  // const toggleBlur = () => {
+  //   mainRef.current.classList.toggle("blurBody");
+  // };
 
   return (
     <div>

@@ -27,6 +27,7 @@ const SmallProjects = () => {
               />
             );
           }
+          return (console.log());
         })}
 
         {showMore && (
@@ -50,6 +51,7 @@ const SmallProjects = () => {
                   </motion.div>
                 );
               }
+              return (console.log(""));
             })}
           </>
         )}

@@ -129,14 +129,14 @@ const StyledTableContainer = styled.div`
 `;
 
 const ArchivePage = () => {
-  const revealTitle = useRef(null);
+  // const revealTitle = useRef(null);
   const revealTable = useRef(null);
-  const revealProjects = useRef([]);
-  const mainRef = useRef(false);
+  // const revealProjects = useRef([]);
+  // const mainRef = useRef(false);
 
-  const toggleBlur = () => {
-    mainRef.current.classList.toggle("blurBody");
-  };
+  // const toggleBlur = () => {
+  //   mainRef.current.classList.toggle("blurBody");
+  // };
 
   return (
     <StyledContent>

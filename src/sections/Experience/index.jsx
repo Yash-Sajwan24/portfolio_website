@@ -1,57 +1,53 @@
 import React, { useState } from "react";
 import SectionTitle from "./SectionTitle.jsx";
 import TeamLead from "./TeamLead.jsx";
-import QA from "./QA.jsx";
-import Internship from "./Internship.jsx";
-import StartUp from "./StartUp.jsx";
-import Freelance from "./Freelance";
 
 const Experience = () => {
   const [workTeamLead, setWorkTeamLead] = useState(true);
-  const [workQA, setWorkQA] = useState(false);
-  const [workInternship, setWorkInternship] = useState(false);
-  const [workStartUp, setWorkStartUp] = useState(false);
-  const [workFreelance, setWorkFreelance] = useState(false);
+  // const [workQA, setWorkQA] = useState(false);
+  // const [workInternship, setWorkInternship] = useState(false);
+  // const [workStartUp, setWorkStartUp] = useState(false);
+  // const [workFreelance, setWorkFreelance] = useState(false);
 
   const handleTeamLead = () => {
     setWorkTeamLead(true);
-    setWorkQA(false);
-    setWorkInternship(false);
-    setWorkStartUp(false);
-    setWorkFreelance(false);
+    // setWorkQA(false);
+    // setWorkInternship(false);
+    // setWorkStartUp(false);
+    // setWorkFreelance(false);
   };
 
-  const handleQA = () => {
-    setWorkTeamLead(false);
-    setWorkQA(true);
-    setWorkInternship(false);
-    setWorkStartUp(false);
-    setWorkFreelance(false);
-  };
+  // const handleQA = () => {
+  //   setWorkTeamLead(false);
+  //   setWorkQA(true);
+  //   setWorkInternship(false);
+  //   setWorkStartUp(false);
+  //   setWorkFreelance(false);
+  // };
 
-  const handleInternship = () => {
-    setWorkTeamLead(false);
-    setWorkQA(false);
-    setWorkInternship(true);
-    setWorkStartUp(false);
-    setWorkFreelance(false);
-  };
+  // const handleInternship = () => {
+  //   setWorkTeamLead(false);
+  //   setWorkQA(false);
+  //   setWorkInternship(true);
+  //   setWorkStartUp(false);
+  //   setWorkFreelance(false);
+  // };
 
-  const handleStartUp = () => {
-    setWorkTeamLead(false);
-    setWorkQA(false);
-    setWorkInternship(false);
-    setWorkStartUp(true);
-    setWorkFreelance(false);
-  };
+  // const handleStartUp = () => {
+  //   setWorkTeamLead(false);
+  //   setWorkQA(false);
+  //   setWorkInternship(false);
+  //   setWorkStartUp(true);
+  //   setWorkFreelance(false);
+  // };
 
-  const handleFreelance = () => {
-    setWorkTeamLead(false);
-    setWorkQA(false);
-    setWorkInternship(false);
-    setWorkStartUp(false);
-    setWorkFreelance(true);
-  };
+  // const handleFreelance = () => {
+  //   setWorkTeamLead(false);
+  //   setWorkQA(false);
+  //   setWorkInternship(false);
+  //   setWorkStartUp(false);
+  //   setWorkFreelance(true);
+  // };
 
   return (
     <section

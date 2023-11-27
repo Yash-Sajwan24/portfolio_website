@@ -38,7 +38,7 @@ function Hero() {
 	const btnRef = useRef(null);
 
 	useEffect(() => {
-		let rect = btnRef.current.getBoundingClientRect();
+		// let rect = btnRef.current.getBoundingClientRect();
 	}, []);
 	return (
     <motion.section
