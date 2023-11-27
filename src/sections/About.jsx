@@ -28,7 +28,8 @@ function About() {
             meaningful solutions and use my skills to make a difference in the
             world.
           </p>
-          <p className="mb-4">
+          <p>I consider myself an innovative thinker, a problem-solver and a team player. Looking forward to securing a position where I can efficiently contirbute my skills for the growth of the organisation and my build professional career.</p>
+          {/* <p className="mb-4">
             Here are a few technologies I’ve been working with recently:
           </p>
           <div className="recent-skills">
@@ -44,7 +45,7 @@ function About() {
             <div className="recent-skills-skill relative mb-[10px] pl-[20px] font-sfMonoRegular text-[14px]">
               Open source
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="mx-auto mt-16 md:mt-0 ">
           <div className="md:ml-[55px] wrap-image w-[200px] md:w-[250px] lg:w-[300px]">
