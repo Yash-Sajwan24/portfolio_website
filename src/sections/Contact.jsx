@@ -9,7 +9,7 @@ function Contact() {
     >
       <div className="w-fit flex flex-row  mt-[10px] mb-4 ">
         <div className="text-theme-green flex items-center text-[16px] ">
-          04. What's Next?
+          06. What's Next?
         </div>
       </div>
       <h1 className="font-calibreSemiBold text-[40px] sm:text-[45px] md:text-[50px] lg:text-[60px] text-theme-lightest-slate">
@@ -33,7 +33,7 @@ function Contact() {
         <a
           target="_blank"
           rel="noreferrer"
-          href="mailto:yashsajwan12345@gmail.com"
+          href="https://www.linkedin.com/in/yash-sajwan-80902b17b/"
           className=" px-[30px] py-[18px] text-[14px]"
         >
           Say Hello
