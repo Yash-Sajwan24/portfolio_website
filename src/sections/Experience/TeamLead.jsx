@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { BsApple } from "react-icons/bs";
 import BulletPoint from "./BulletPoint.jsx";
 
 const C4GT = () => {
