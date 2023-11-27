@@ -15,15 +15,15 @@ const C4GT = () => {
       <div className="flex flex-wrap gap-1 text-white font-medium text-xl font-titleFont flex-col sml:flex-row">
         <h3>Open Source Developer</h3>
         <span className="text-sm mt-1 font-medium text-textGreen flex">
-          @ Code for GovTech &ensp;
+          @ GirlScript Summer of Code (GSSOC) &ensp;
         </span>
       </div>
 
       {/* Working Dates */}
-      <p className="pt-3 text-white">1'st July 2023 - 1'st September 2023</p>
+      <p className="pt-3 text-white">20'th May 2023 - 10'th August 2023</p>
 
       {/* INTRODUCTION */}
-      <p className="mt-3 text-base font-light flex gap-2 text-textDark">
+      {/* <p className="mt-3 text-base font-light flex gap-2 text-textDark">
         <strong>
           Working on Sunbird-Ed. It is a scalable open-source learning solution
           for teachers and tutors. It runs natively in cloud/mobile
@@ -33,22 +33,19 @@ const C4GT = () => {
           <br />
           Key responsibilities included:
         </strong>
-      </p>
+      </p> */}
+
 
       {/* Bullet Points */}
       <div className="min-h-fit">
         <ul className="mt-4 flex flex-col gap-3 text-textDark">
           <BulletPoint
-            headningText="Improving discoverability of content"
-            contentText="Making it easier for users to find the content they are looking for, which will improve the user experience."
+            headningText="Data Structures and Algorithms C/C++"
+            contentText="Delivered comprehensible and user-friendly code snippets elucidating advanced data structures for beginners"
           />
           <BulletPoint
-            headningText="Increasing flexibility in filtering content"
-            contentText="Designing the additional filters and giving users more control over how they filter content, which will allow them to find the content that is most relevant to them."
-          />
-          <BulletPoint
-            headningText="Configuring List fields flexibility"
-            contentText="Developer have the power or right to set that if he/she wants to show up one particular field or not and can also add new fields."
+            headningText="Web Developement"
+            contentText="Designed and executed a dynamic web application utilizing ReactJS, Redux Toolkit, and Node.js. Tailored content to align with organisation preferences, leading to a noteworthy 20% surge in user engagement and a 15% increase in conversion rates."
           />
         </ul>
       </div>

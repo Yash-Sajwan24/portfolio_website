@@ -78,12 +78,12 @@ const Experience = () => {
                   workTeamLead ? "text-textGreen" : "text-textDark"
                 }`}
               >
-                C4GT'23
+                GSSOC'23
               </span>
               <br />
             </li>
 
-            {/* QA */}
+            {/* QA
             <li
               onClick={handleQA}
               className={`${
@@ -97,10 +97,10 @@ const Experience = () => {
               >
                 Digilocker
               </span>
-            </li>
+            </li> */}
 
             {/* Internship */}
-            <li
+            {/* <li
               onClick={handleInternship}
               className={`${
                 workInternship
@@ -116,10 +116,10 @@ const Experience = () => {
                 Parentheses Labs
               </span>
               <br />
-            </li>
+            </li> */}
 
             {/* StartUp */}
-            <li
+            {/* <li
               onClick={handleStartUp}
               className={`${
                 workStartUp
@@ -135,7 +135,7 @@ const Experience = () => {
                 Omikron Technologies
               </span>
               <br />
-            </li>
+            </li> */}
 
             {/* Freelance */}
             {/* <li
@@ -153,9 +153,9 @@ const Experience = () => {
 
         {/* Work information */}
         {workTeamLead && <TeamLead />}
-        {workQA && <QA />}
+        {/* {workQA && <QA />}
         {workInternship && <Internship />}
-        {workStartUp && <StartUp />}
+        {workStartUp && <StartUp />} */}
       </div>
     </section>
   );
