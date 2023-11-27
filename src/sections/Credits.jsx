@@ -10,7 +10,7 @@ function Credits() {
       <div className="flex flex-row md:hidden mt-[50px]">
         <div className="flex flex-row items-center mr-2">
           <a
-            href="https://github.com/Pranshu321"
+            href="https://github.com/Yash-Sajwan24"
             target="_blank"
             rel="noreferrer"
             className="w-[40px] h-[40px] cursor-pointer p-[10px]"
@@ -33,7 +33,7 @@ function Credits() {
         </div>
         <div className="flex flex-row items-center mr-2">
           <a
-            href="https://www.codechef.com/users/pranshu32"
+            href="https://www.codechef.com/users/yash_sajwan"
             aria-label="Instagram"
             rel="noopener noreferrer"
             target="_blank"
@@ -47,7 +47,7 @@ function Credits() {
         </div>
         <div className="flex flex-row items-center mr-2">
           <a
-            href="https://leetcode.com/pranshujain0111"
+            href="https://leetcode.com/yash_sajwan/"
             aria-label="Instagram"
             rel="noopener noreferrer"
             target="_blank"
@@ -61,7 +61,7 @@ function Credits() {
         </div>
         <div className="flex flex-row items-center mr-2">
           <a
-            href="https://twitter.com/pranshujain0111"
+            href="https://twitter.com/yashsajwan5"
             aria-label="Twitter"
             rel="noopener noreferrer"
             target="_blank"
@@ -85,7 +85,7 @@ function Credits() {
         </div>
         <div className="flex flex-row items-center ">
           <a
-            href="https://www.linkedin.com/in/pranshu32/"
+            href="https://www.linkedin.com/in/yash-sajwan-80902b17b/"
             aria-label="LinkedIn"
             rel="noopener noreferrer"
             target="_blank"
@@ -111,7 +111,7 @@ function Credits() {
         </div>
         <div className="flex flex-row items-center mr-2">
           <a
-            href="https://www.instagram.com/pranshu_x_jain"
+            href="https://www.instagram.com/yash_sajwan_/"
             aria-label="Instagram"
             rel="noopener noreferrer"
             target="_blank"
@@ -138,7 +138,7 @@ function Credits() {
       </div>
       <div className="w-fit flex flex-col  mt-[20px] mb-4">
         <a
-          href="https://github.com/Pranshu321"
+          href="https://github.com/Yash-Sajwan24"
           target="_blank"
           rel="noreferrer"
           className=" flex flex-col text-theme-light-slate items-center text-[12px] font-sfMonoRegular mb-2 hover:text-theme-green"
