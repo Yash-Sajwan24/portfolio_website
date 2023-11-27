@@ -1,6 +1,4 @@
-import { Navbar } from "@material-tailwind/react";
 import React, { useRef } from "react";
-import { Helmet } from "react-helmet";
 import styled from "styled-components";
 import { Archivements } from "./utils/Archivements";
 import { FiExternalLink } from "react-icons/fi";

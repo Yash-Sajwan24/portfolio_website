@@ -1,6 +1,6 @@
 import {motion} from "framer-motion";
 import React, {useEffect, useRef} from "react";
-import Typewriter, { Options } from "typewriter-effect";
+import Typewriter from "typewriter-effect";
 
 const startVariants = {
 	initial: {

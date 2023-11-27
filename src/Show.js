@@ -1,7 +1,4 @@
 import { useRef } from "react";
-import Canvas from "./components/Canvas";
-import Left from "./components/Left";
-import Navbar from "./components/Navbar";
 import SideEmail from "./components/SideEmail";
 import SideSocials from "./components/SideSocials";
 import About from "./sections/About";

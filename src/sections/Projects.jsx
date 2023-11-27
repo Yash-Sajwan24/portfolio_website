@@ -1,26 +1,25 @@
 import React from "react";
-import {motion, Variants} from "framer-motion";
 
 import {animateSection} from "../utils/animateSection";
 
 import {data} from "../data/projects.js";
 const projects = data.projects;
 
-const cardVariants = (percent) => {
-	return {
-		offscreen: {
-			width: 0,
-		},
-		onscreen: {
-			width: `${percent}%`,
-			transition: {
-				type: "spring",
-				bounce: 0.4,
-				duration: 0.8,
-			},
-		},
-	};
-};
+// const cardVariants = (percent) => {
+// 	return {
+// 		offscreen: {
+// 			width: 0,
+// 		},
+// 		onscreen: {
+// 			width: `${percent}%`,
+// 			transition: {
+// 				type: "spring",
+// 				bounce: 0.4,
+// 				duration: 0.8,
+// 			},
+// 		},
+// 	};
+// };
 
 function Projects() {
 	return (
