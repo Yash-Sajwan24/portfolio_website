@@ -1,29 +1,30 @@
 import React, { useState } from "react";
 import SectionTitle from "./SectionTitle.jsx";
 import TeamLead from "./TeamLead.jsx";
+import QA from "./QA.jsx";
 
 const Experience = () => {
   const [workTeamLead, setWorkTeamLead] = useState(true);
-  // const [workQA, setWorkQA] = useState(false);
+  const [workQA, setWorkQA] = useState(false);
   // const [workInternship, setWorkInternship] = useState(false);
   // const [workStartUp, setWorkStartUp] = useState(false);
   // const [workFreelance, setWorkFreelance] = useState(false);
 
   const handleTeamLead = () => {
     setWorkTeamLead(true);
-    // setWorkQA(false);
+    setWorkQA(false);
     // setWorkInternship(false);
     // setWorkStartUp(false);
     // setWorkFreelance(false);
   };
 
-  // const handleQA = () => {
-  //   setWorkTeamLead(false);
-  //   setWorkQA(true);
-  //   setWorkInternship(false);
-  //   setWorkStartUp(false);
-  //   setWorkFreelance(false);
-  // };
+  const handleQA = () => {
+    setWorkTeamLead(false);
+    setWorkQA(true);
+    // setWorkInternship(false);
+    // setWorkStartUp(false);
+    // setWorkFreelance(false);
+  };
 
   // const handleInternship = () => {
   //   setWorkTeamLead(false);
@@ -79,7 +80,7 @@ const Experience = () => {
               <br />
             </li>
 
-            {/* QA
+          
             <li
               onClick={handleQA}
               className={`${
@@ -91,9 +92,9 @@ const Experience = () => {
               <span
                 className={`${workQA ? "text-textGreen" : "text-textDark"}`}
               >
-                Digilocker
+                Campalin Innovations
               </span>
-            </li> */}
+            </li>
 
             {/* Internship */}
             {/* <li
@@ -149,8 +150,8 @@ const Experience = () => {
 
         {/* Work information */}
         {workTeamLead && <TeamLead />}
-        {/* {workQA && <QA />}
-        {workInternship && <Internship />}
+        {workQA && <QA />}
+        {/* {workInternship && <Internship />}
         {workStartUp && <StartUp />} */}
       </div>
     </section>

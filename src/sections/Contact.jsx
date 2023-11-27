@@ -25,8 +25,10 @@ function Contact() {
           </p>
         </div>
       </div>
-
-      <h1 className="font-calibreSemiBold text-[10px] sm:text-[15px] md:text-[20px] lg:text-[30px] text-theme-lightest-slate">
+      <div className="flex flex-col md:flex-row align-middle min-h-full text-[20px] font-calibreRegular text-theme-gray-deep font-medium ">
+      Send me an email at:
+      </div>
+      <h1 className="font-calibreSemiBold text-[10px] sm:text-[15px] md:text-[15px] lg:text-[20px] text-theme-lightest-slate">
               yashsajwan12345@gmail.com
             </h1>
       <div className="w-fit mt-9 border border-theme-green hover:bg-theme-green/10 cursor-pointer rounded flex  items-center text-theme-green">
