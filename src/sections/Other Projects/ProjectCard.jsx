@@ -8,12 +8,12 @@ const ProjectCard = ({ title, description, gitLink, liveLink, listItems }) => {
       {/* Icon-Links */}
       <div className="flex justify-between items-center">
         {/* GITHUB LINK */}
-        <a href={gitLink} target="_blank">
+        <a href={gitLink} rel="noreferrer" target="_blank">
           <RiGithubLine className="text-white text-2xl hover:text-textGreen" />
         </a>
 
         {/* LIVE LINK */}
-        <a href={liveLink} target="_blank">
+        <a href={liveLink} rel="noreferrer" target="_blank">
           <FiExternalLink className="text-white text-2xl hover:text-textGreen" />
         </a>
       </div>
@@ -21,7 +21,7 @@ const ProjectCard = ({ title, description, gitLink, liveLink, listItems }) => {
       {/* Text Portion  */}
       <div>
         {/* TITLE */}
-        <a href={liveLink} target="_blank">
+        <a href={liveLink} rel="noreferrer" target="_blank">
           <h2 className="text-xl font-titleFont font-semibold tracking-wide text-white group-hover:text-textGreen">
             {title}
           </h2>
