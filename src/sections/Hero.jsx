@@ -61,7 +61,7 @@ function Hero() {
       </h3>
       <p className="bio max-w-[540px] mt-[20px] text-[20px] text-theme-gray-deep font-calibreRegular">
         Experienced in developing and deploying full-functional, robust and
-        scalable web applications from base to production
+        scalable web applications from base to production.
       </p>
       <div
         ref={btnRef}
