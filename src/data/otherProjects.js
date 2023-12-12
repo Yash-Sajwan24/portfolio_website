@@ -1,5 +1,13 @@
 export const otherProjects = [
   {
+    title: "Golds Gym",
+    description:
+      "This React-based website showcases a gym's services, classes, trainers, and contact details.",
+    gitLink: "https://github.com/Yash-Sajwan24/Gym-Exercise",
+    liveLink: "https://goldsgym24.netlify.app/",
+    listItems:["React", "CSS", "Rapid Api", "Materail UI"],
+  },
+  {
     title: "Mars Delight",
     description:
       "Indulge in an otherworldly culinary experience at Mars Delight - where the flavors of the red planet meet the finest in dining. Experience the taste of a new world at Mars Delight - the premier restaurant on the red planet.",

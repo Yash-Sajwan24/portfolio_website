@@ -1,6 +1,16 @@
 export const data = {
   projects: [
     {
+      title: "SummaBriefs",
+      description:
+        "An open-source article summarizer that streamlines content creation & curation. Transform lengthy articles into concise summaries effortlessly, allowing you to grasp key points without spending hours reading.",
+      technologies: ["React", "Tailwind CSS", "Rapid Api", "Redux Toolkit"],
+      github: "https://github.com/Yash-Sajwan24/SummaBriefs",
+      website: "https://summabriefs.netlify.app/",
+      img: "https://www.twinglar.com/posts/902d7f00-b1ed-4ca3-8fce-bae95c527572.png",
+      yt: "https://www.youtube.com/watch?v=xerCwrJMf90",
+    },
+    {
       title: "To-Do-List",
       description:
         "This application provides an efficient and user-friendly platform to manage your tasks and stay organized. Whether an individual or a professional, this project empowers you to keep track of your assignments effortlessly.",
@@ -20,15 +30,6 @@ export const data = {
       img: "https://media.licdn.com/dms/image/C4D12AQFVwj-3I9h3VA/article-cover_image-shrink_720_1280/0/1600349586156?e=2147483647&v=beta&t=IM1kOthbtsJfVfruTtx--qYPR7RhRJQiuYGgJ_Z8hu8",
       yt: "https://youtu.be/HX6boY6LCmI",
     },
-    {
-      title: "Golds Gym",
-      description:
-        "This React-based website showcases a gym's services, classes, trainers, and contact details.",
-      technologies: ["React", "CSS", "Rapid Api", "Materail UI"],
-      github: "https://github.com/Yash-Sajwan24/Gym-Exercise",
-      website: "https://goldsgym24.netlify.app/",
-      img: "https://content.jdmagicbox.com/comp/delhi/b5/011pxx11.xx11.101124124333.g9b5/catalogue/gold-s-gym-dwarka-sector-7-delhi-women-health-clubs-jjtzrg68ba.jpg?clr=",
-      yt: "https://www.youtube.com/watch?v=xerCwrJMf90",
-    },
+    
   ],
 };
