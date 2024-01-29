@@ -15,13 +15,13 @@ const QA = () => {
       <h3 className="flex gap-1 text-white font-medium text-xl font-titleFont flex-col sml:flex-row">
       WebDeveloper
         <span className="text-sm mt-1 font-medium text-textGreen flex">
-          @ Campalin Innovations &ensp;
+          @ Parentheses Labs &ensp;
         </span>
-        <em className="text-sm">Frontend Developer</em>
+        <em className="text-sm">Software Developer</em>
       </h3>
 
       {/* Working Dates */}
-      <p className="pt-3 text-white">22'nd December 2022 - 23'rd January 2023</p>
+      <p className="pt-3 text-white">22'nd December 2022 - 23'rd February 2023</p>
 
       {/* INTRODUCTION */}
       {/* <p className="mt-3 text-base font-light flex gap-2 text-textDark">
@@ -35,13 +35,18 @@ const QA = () => {
       {/* Bullet Points */}
       <ul className="mt-4 flex flex-col gap-3 text-textDark">
         <BulletPoint
-          headningText="Designing Plesant UI"
-          contentText="Developing the User Interface of the project as per the figma design and UI guidelines. Making it responsive and easily adaptable and customizable, utilizing HTML, CSS,and JavaScript."
+          headningText="Performance"
+          contentText="Achieved 20% improvement by switching to Next.js from React.js. Led the team in transitioning, overseeing design,
+          development, and implementation."
         />
 
         <BulletPoint
-          headningText="Client-Centric Excellence"
-          contentText="Ensured an enhanced user experience and met project requirements, aligning with the clients needs."
+          headningText="Admin Dashboard for managing leads"
+          contentText="Architected Admin Dashboard for YadukaFresh, optimising company-wide processes with a 15% efficiency surge."
+        />
+        <BulletPoint
+          headningText="Increased Efficiency"
+          contentText="Engineered server system enabling synchronous CRUD operations and custom roles. Increased marketing efficiency by 20%."
         />
       </ul>
     </motion.div>

@@ -92,7 +92,7 @@ const Experience = () => {
               <span
                 className={`${workQA ? "text-textGreen" : "text-textDark"}`}
               >
-                Campalin Innovations
+                Parentheses Labs
               </span>
             </li>
 
