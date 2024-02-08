@@ -1,5 +1,22 @@
 export const otherProjects = [
   {
+    title: "Period Tracker",
+    description:
+      "Period Cycle meticulously, receive insightful Mood Analysis, and access information about nearby hospitals and gynecologists for their medical needs.",
+    gitLink: "https://github.com/Yash-Sajwan24/PeriodPixie",
+    liveLink: "https://drive.google.com/file/d/1lQAKxtWhPXBVnXIkbZ_CUf4Zjd3DzvZS/view",
+    listItems:["React.js", "numpy", "Pandas", "Tailwind", "Google Maps", "Firebase"],
+  },
+  {
+    title: "Campus Ambassador Portal",
+    description:
+      "A comprehensive web application designed to streamline and enhance campus ambassador programs.",
+    gitLink: "https://github.com/Yash-Sajwan24/Community-Ambassador-Management-Portal",
+    liveLink: "https://github.com/Yash-Sajwan24/Community-Ambassador-Management-Portal",
+    listItems:["Express.Js", "CSS", "Tailwind", "Node.Js", "Javascript"],
+  },
+
+  {
     title: "Golds Gym",
     description:
       "This React-based website showcases a gym's services, classes, trainers, and contact details.",

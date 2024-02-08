@@ -1,6 +1,16 @@
 export const data = {
   projects: [
     {
+      title: "AI SaaS Platform",
+      description:
+        "Integrates OpenAI and Replicate AI tools for diverse tasks: image, video, conversation, music, and code generation. Provides five free trials; charges monthly fees via Stripe Checkout afterwards.",
+      technologies: ["Next.js", "Tailwind", "Stripe", "Shadcn/ui", "Prisma"],
+      github: "https://github.com/Yash-Sajwan24/ai-sass",
+      website: "https://ai-sass-yash.vercel.app/",
+      img: "https://incubator.ucf.edu/wp-content/uploads/2023/07/artificial-intelligence-new-technology-science-futuristic-abstract-human-brain-ai-technology-cpu-central-processor-unit-chipset-big-data-machine-learning-cyber-mind-domination-generative-ai-scaled-1.jpg",
+      yt: "https://youtu.be/HX6boY6LCmI",
+    },
+    {
       title: "SummaBriefs",
       description:
         "An open-source article summarizer that streamlines content creation & curation. Transform lengthy articles into concise summaries effortlessly, allowing you to grasp key points without spending hours reading.",
@@ -19,16 +29,6 @@ export const data = {
       website: "https://to-do-list24.onrender.com/",
       img: "https://images.ctfassets.net/lzny33ho1g45/1GtQ57fpTQvFvhixeyIVim/03e81fa6569517e64a1e2aa030987d8a/doodled_to-do_list",
       yt: "https://www.youtube.com/watch?v=mznzv-MpA1Q",
-    },
-    {
-      title: "Campus Ambassador Portal",
-      description:
-        "A comprehensive web application designed to streamline and enhance campus ambassador programs. These programs offer valuable part-time opportunities for students during their college education. By engaging students in these programs, brands and organizations can establish a strong presence and promote their products or services among students",
-      technologies: ["Express.Js", "CSS", "Tailwind", "Node.Js", "Javascript"],
-      github: "https://github.com/Yash-Sajwan24/Community-Ambassador-Management-Portal",
-      website: "https://github.com/Yash-Sajwan24/Community-Ambassador-Management-Portal",
-      img: "https://media.licdn.com/dms/image/C4D12AQFVwj-3I9h3VA/article-cover_image-shrink_720_1280/0/1600349586156?e=2147483647&v=beta&t=IM1kOthbtsJfVfruTtx--qYPR7RhRJQiuYGgJ_Z8hu8",
-      yt: "https://youtu.be/HX6boY6LCmI",
     },
     
   ],
